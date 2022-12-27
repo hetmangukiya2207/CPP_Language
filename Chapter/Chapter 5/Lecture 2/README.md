@@ -16,4 +16,4 @@
 
 <u>**Output**</u> :
 
-<img src="" height = "200px" alt = "unable to load image.">
+<img src="https://user-images.githubusercontent.com/114165239/209714345-7f22bf45-d61e-4ef4-9d7b-94217fe66919.png" height = "200px" alt = "unable to load image.">
