@@ -21,7 +21,7 @@
 
 <u>**Output**</u> :
 
-<img src="" height = "200px" alt = "unable to load image.">
+<img src="https://user-images.githubusercontent.com/114165239/209677545-1816c685-69ad-4965-8d61-cd56d28aa71f.png" height = "200px" alt = "unable to load image.">
 
 <u>**Aim 4**</u> :Write a program to check if a given character is vowel or consonant.
 
@@ -29,9 +29,7 @@
 
 <u>**Output**</u> :
 
-<img src="" height = "200px" alt = "unable to load image.">
-
-<img src="" height = "200px" alt = "unable to load image.">
+<img src="https://user-images.githubusercontent.com/114165239/209677758-daa16f89-77d1-41a6-8141-84f125a5d48e.png" height = "200px" alt = "unable to load image.">
 
 <u>**Aim 5**</u> :Write a program to find square root of given numbers from array elements.
 
@@ -39,11 +37,11 @@
 
 <u>**Output**</u> :
 
-<img src="" height = "200px" alt = "unable to load image.">
+<img src="https://user-images.githubusercontent.com/114165239/209677995-304d2436-34fa-480d-9864-11d2660ad8ce.png" height = "200px" alt = "unable to load image.">
 
 <u>**Aim 6**</u> :Write a program  to generate cube of given 5 numbers and make an array of that generated cubes.
 <u>**Program File**</u> : PR-6.cpp
 
 <u>**Output**</u> :
 
-<img src="" height = "200px" alt = "unable to load image.">
+<img src="https://user-images.githubusercontent.com/114165239/209678163-8851e2f8-33d8-45d5-9f12-6dea83af1c4e.png" height = "200px" alt = "unable to load image.">
