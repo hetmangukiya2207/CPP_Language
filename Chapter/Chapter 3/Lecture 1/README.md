@@ -3,14 +3,13 @@
 
 
 <u>**Aim 1**</u> : WAP to get and display 5 Employees information using class and object by including below mentioned attributes:
-                                                                                                                                - emp_id
-                                                                                                                                - emp_name
-                                                                                                                                - emp_role
-                                                                                                                                - emp_age
-                                                                                                                                - emp_salary
-                                                                                                                                - emp_experience
-                                                                                                                                - emp_city
-                                                                                                                                - emp_company_name
+- emp_id
+- emp_name
+- emp_role
+- emp_age
+- emp_salary
+- emp_experience
+- emp_city- emp_company_name
                                                                                                                                 
 <u>**Program File**</u> : C3-L1-1.cpp
 
