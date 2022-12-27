@@ -146,7 +146,3 @@ Requirements:
 <img src="https://user-images.githubusercontent.com/114165239/209711599-b3530a6f-dc01-4628-b677-85ecdd5db57e.png" height = "200px" alt = "unable to load image.">
 
 <img src="https://user-images.githubusercontent.com/114165239/209711624-ecfb0ade-813e-41f9-b8ee-402ee263476d.png" height = "200px" alt = "unable to load image.">
-
-<img src="" height = "200px" alt = "unable to load image.">
-
-<img src="" height = "200px" alt = "unable to load image.">
