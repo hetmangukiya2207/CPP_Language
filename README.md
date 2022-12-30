@@ -6,6 +6,19 @@
 
 OOP 		=>		Object Oriented Programming 		=>	CPP, Dart, Java, Python, etc... 
 
-* History Of CPP
+  
+ * History Of CPP
+  
+ Danish Richi 		=>	C Language (1978)
 
+Bjarne Stroustrup	=>	PH.D in OOP
+                  =>	Join in ATNT Company
+                  =>	Bell Laboratry
+                  =>	1984
+
+1980				=>	C With Object
+
+  
+ * Different between C & CPP  
+  
 </b>
