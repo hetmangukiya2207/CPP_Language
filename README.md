@@ -245,4 +245,8 @@ OOP 		=>		Object Oriented Programming 		=>	CPP, Dart, Java, Python, etc...
   
 ## Chapter :- 05 Data Encapsulation
   
+## Chapter :- 06 Inheritance
+  
+## Chapter :- 07 Polymorphism
+  
 </b>
