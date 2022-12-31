@@ -483,6 +483,187 @@ OOP 		=>		Object Oriented Programming 		=>	CPP, Dart, Java, Python, etc...
   
 ## Chapter :- 05 Inheritance
   
+- What is Inheritance ?
+
+                        - share attributes and method from one class two another class.
+                          Super class=>Base class=>Parent class
+                          Sub class =>Derived class=>Child class
+
+- Syntax :-
+
+                      Class parent {
+                      Private :
+                      attributes 
+                      Public :
+                      methods
+                      };
+                      Class child : access modifier parent{
+                      // all the parent’s class data is accessible here
+                      };
+                      Int main() {
+                      Int main() {
+                      child c;
+                      c.parentData();
+                      }
+
+- Types of Inheritance :-
+
+- Single level :- 
+
+                    (min class :- 02 & max class :- 02
+                    Class A	->	Class B
+
+- Example :-
+
+                    // single inheritence
+                    class A {
+                    private :
+                    int a;
+                    public :
+                    void setDataA(){
+                    }
+                    void getDataA(){
+                    }
+                    };
+                    class B : public A{
+                    private :
+                    int b;
+                    public :
+                    void setDataB(){
+                    }
+                    void getDataB(){
+                    }
+                    };
+                    int main()
+                    {
+                    B b1;
+                    b1.setDataA();
+                    b1.setDataB();
+                    b1.getDataA();
+                    b1.getDataB();
+                    }
+
+- Multi level :- 
+
+                    (min class :- 02 & max class :- 02)
+                    Class A	->	Class B	->	Class C
+
+- Example :-
+
+                    // single inheritance
+                    class A {
+                    private :
+                    int a;
+                    public :
+                    void setDataA(){
+                    }
+                    void getDataA(){
+                    }
+                    };
+                    class B : public A{
+                    };
+                    class C : public B{
+                    };
+                    int main()
+                    {
+                    C c1;
+                    c1.setDataA();
+                    c1.getDataA();
+                    }
+
+                    Multi level :- 
+
+                    (min class :- 02 & max class :- 02)
+                    Class A	&	Class B	=>	Class C
+
+                    Example :-
+
+                    class A {
+                    };
+                    class B{
+                    };
+                    class C : public B, public A{
+                    };
+                    int main()
+                    {
+                    C c1;
+                    }
+
+- Hierarchical :-
+
+                    (min class :- 02 & max class :- 02)
+                    Class A	=>	Class B	&	Class C
+
+- Example :-
+
+                    class A {
+                    };
+                    class B : public A{
+                    };
+                    class C : public A{
+                    };
+                    int main()
+                    {
+                    B b1;
+                    C c1;
+                    }
+
+- Ambiguity :- (Duplication)
+
+                    - It accrues when we tries to access some data from two different Sourses which are not directly connected to each other.
+                    - It mainly accrues in multiple and hierarchical inheritance.
+                    - There are two different way to resolve the ambiguity.
+  
+- Temporary Solution :-
+  
+                    - Using scope resolution operator
+                      // membership label operator
+
+- Parameterized Solution :-
+
+                    - Using virtual function
+                    - Function or attributes which are being accessed from multiple soused are called ambiguous.
+
+- Syntax :-
+
+                    className::variable(AttributesName)/function(MethodName)
+
+- Example :-
+
+                    class weather : public fer, public kel{
+                    public :
+                    void gatWeather()
+                    {
+                    cout << "Cel C : " << fer::c << endl;
+                    tofer();
+                    tokel();
+                    }
+                    };
+                    int main()
+                    {
+                    weather w;
+                    w.gatWeather();
+                    }
+
+- Hybrid :-
+
+                    class weather : public fer, public kel{
+                    public :
+                    void gatWeather()
+                    {
+                    cout << "Cel C : " << fer::c << endl;
+                    tofer();
+                    tokel();
+                    }
+                    };
+                    int main()
+                    {
+                    weather w;
+                    w.feh::settmp();
+                    w.kel::settmp();
+                    w.gatWeather();
+                    }
+  
 ## Chapter :- 06 Polymorphism
   
 </b>
