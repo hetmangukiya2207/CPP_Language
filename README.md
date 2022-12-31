@@ -158,7 +158,7 @@ OOP 		=>		Object Oriented Programming 		=>	CPP, Dart, Java, Python, etc...
   
   ## Chapter :- 03 OOP Concept
   
- - OOP		=>		Object Oriented Programming
+- OOP		  =>		Object Oriented Programming
 - POP		  =>		Project Oriented Programming
   
 - What is object oriented programming ?
@@ -174,6 +174,7 @@ OOP 		=>		Object Oriented Programming 		=>	CPP, Dart, Java, Python, etc...
             - Data abstraction
   
             Variable		=>		data members			    =>	attributer
+  
             UDF			    =>		data member function	=>	methods
   
 - Encapsulation :-
