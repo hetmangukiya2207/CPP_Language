@@ -245,6 +245,241 @@ OOP 		=>		Object Oriented Programming 		=>	CPP, Dart, Java, Python, etc...
   
 ## Chapter :- 04 Data Encapsulation
   
+- What is data Encapsulation ?
+
+                      To wrap the code into reusable method of class convert UDFs into data member function and convert variable into dta member is called encapsulation.
+
+- Setter :-
+
+                       A method to take input all r specific attributes.
+
+- Getter :-
+
+                        A method to give output all or specific attributes.
+
+- This keyword :-
+
+                        It defecates the class level variable from function level variables.
+
+- Syntax :-
+
+                        this -> variableName;
+
+- Example :-
+  
+                        class Emp{
+                        private :
+                        int id;
+                        string name;
+                        public :
+                        void setData(int id, string name)
+                        {
+                        this->id;
+                        this->name;
+                        }
+                        };
+                        int main()
+                        {
+                        Emp e1;
+                        e1.setData(101, "Nayan");
+                        }
+
+                        Nested member function :-
+
+                        voidsetData()	
+                        {
+                        getData();
+                        }
+
+                        Static :-
+
+                        static void header() {
+                        Emp :: header();
+                        }
+
+- ::
+                        Scoper resolution operator
+                        memebership label operator
+
+                        - common method for all objects which can be accessed by className using scope resolution operator( :: )
+
+- What is static member ?
+
+                        - common member for all object’s which takes the single member allocation.
+                        - for all the objects static member will common and only one.
+                        - static data member (attributes)
+                        - static member function (method)
+
+- Example :-
+                        Private :
+                        String school
+                        (global area)
+                        String stud::school = “GSEB”;
+
+- Static member function :-
+
+                         - we can use only static data members in static function, any other attributes want be allowed.
+
+- Friend function :-
+
+                         - it is mainly used to access private attributes of class.
+                         - we have o declare friend function in class’s body.
+                         - it must be defined (create body) in global area.
+
+- Example :-
+
+                          Class fooclass{
+                          Public :
+                          // only declaration in class
+                          friendvoidfo();
+                          };
+                          // declaration global area
+                          Void foo() {
+                          // body
+                          }
+
+- Types of friend function :-
+
+                          -Default
+                          -Parameterized
+
+- Default Example :-
+
+                            class om{
+                            private :
+                            string psw = "#om007"
+                            public :
+                            friend void Gautam();
+                            };
+                            void Gautam(){
+                            om o1;
+                            cout << "Password : " << o1.psw << endl;
+                            }
+                            int main()
+                            {
+                            om o1;
+                            Gautam;
+                            }
+
+- Parameterized Example :-
+
+                        class om{
+                        private :
+                        string psw = "#om007"
+                        public :
+                        friend void Gautam(om o);
+                        };
+                        void Gautam(om o){
+                        cout << "Password : " << o1.psw << endl;
+                        }
+                        int main()
+                        {
+                        om o1;
+                        Gautam;
+                        }
+
+                        Optional use as a getter of friend function :-
+
+                        class demo{
+                        private :
+                        int d;
+                        public :
+                        //setter
+                        void setData()
+                        {
+                        cout << "Enter value of D : ";
+                        cin >> d;
+                        }
+                        friend void fd(demo);
+                        };
+                        // getter friend
+                        void fd(demo d1)
+                        {
+                        cout << "D : " << d1.d;
+                        }
+                        int main(){
+                        demo d1;
+                        d1.setData();
+                        d1.fd(d1);
+                        }
+
+- Call by value :-
+
+                        - Changes limited to function
+
+- Call by reference :-
+                        - Pointer / Reference 
+                        - Make changes in original
+                        - Value
+
+- What is constructor ?
+
+                        constructor is a block of code which is automatically involved when class is instantiated.
+
+                        instance    =>  object            =>  noun
+                        instantiate =>  to create object  =>  verb
+
+- Rules to create Constructor :-
+
+                        - it’s name must be same as class’s name.
+                        - it must not have any return Datatype (void, int, char...).
+                        - it must not return any value.
+
+- Example :-
+
+                        class demo{
+                        private :
+                        int d;
+                        public :
+                        //setter
+                        void setData()
+                        {
+                        cout << "Enter value of D : ";
+                        cin >> d;
+                        }
+                        void getData()
+                        {
+                        cout << "ID : " << id << endl;
+                        }
+                        hotel()
+                        {
+                        cout << "Susawagatam..." << endl;
+                        }
+                        };
+                        int main(){
+                        demo d1;
+                        }
+
+- Types of constructor :-
+
+                        - Default
+                        - Parameterized
+                        - Copy
+                        - Implicit (Directly)
+                        - Explicit (Forcefully)
+
+- What is destructor ?
+
+                        - a block of code which is automatically involved when object is destroyed or deleted.
+
+- Rules to create Destructor :-
+                        - it's name must be same as class name starts with tilled operator.
+                        - it must not have any return datatype.
+                        - It must not return any value.
+                        - Destructor can’t have any parameter.
+
+- Example :-
+  
+                        class hotel{
+                        private :
+                        int id;
+                        public :
+                        // destructor
+                        ~ hotel(){
+                        cout << "Process Ended...";
+                        }
+                        };
+  
 ## Chapter :- 05 Inheritance
   
 ## Chapter :- 06 Polymorphism
