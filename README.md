@@ -247,74 +247,75 @@ OOP 		=>		Object Oriented Programming 		=>	CPP, Dart, Java, Python, etc...
   
 - What is data Encapsulation ?
 
-                      To wrap the code into reusable method of class convert UDFs into data member function and convert variable into dta member is called encapsulation.
+                      - To wrap the code into reusable method of class convert UDFs into data member function and convert variable
+                      into data member is called encapsulation.
 
 - Setter :-
 
-                       A method to take input all r specific attributes.
+                      - A method to take input all r specific attributes.
 
 - Getter :-
 
-                        A method to give output all or specific attributes.
+                      - A method to give output all or specific attributes.
 
 - This keyword :-
 
-                        It defecates the class level variable from function level variables.
+                      - It defecates the class level variable from function level variables.
 
 - Syntax :-
 
-                        this -> variableName;
+                      this -> variableName;
 
 - Example :-
   
-                        class Emp{
-                        private :
-                        int id;
-                        string name;
-                        public :
-                        void setData(int id, string name)
-                        {
-                        this->id;
-                        this->name;
-                        }
-                        };
-                        int main()
-                        {
-                        Emp e1;
-                        e1.setData(101, "Nayan");
-                        }
+                      class Emp{
+                      private :
+                      int id;
+                      string name;
+                      public :
+                      void setData(int id, string name)
+                      {
+                      this->id;
+                      this->name;
+                      }
+                      };
+                      int main()
+                      {
+                      Emp e1;
+                      e1.setData(101, "Nayan");
+                      }
+            
+- Nested member function :-
 
-                        Nested member function :-
+                      voidsetData()	
+                      {
+                      getData();
+                      }
+                        
+- Static :-
 
-                        voidsetData()	
-                        {
-                        getData();
-                        }
-
-                        Static :-
-
-                        static void header() {
-                        Emp :: header();
-                        }
+                      static void header() {
+                      Emp :: header();
+                      }
 
 - ::
-                        Scoper resolution operator
-                        memebership label operator
+                      Scoper resolution operator
+                      memebership label operator
 
-                        - common method for all objects which can be accessed by className using scope resolution operator( :: )
+                      - common method for all objects which can be accessed by className using scope resolution operator( :: )
 
 - What is static member ?
 
-                        - common member for all object’s which takes the single member allocation.
-                        - for all the objects static member will common and only one.
-                        - static data member (attributes)
-                        - static member function (method)
+                      - common member for all object’s which takes the single member allocation.
+                      - for all the objects static member will common and only one.
+                      - static data member (attributes)
+                      - static member function (method)
 
 - Example :-
-                        Private :
-                        String school
-                        (global area)
-                        String stud::school = “GSEB”;
+                      Private :
+                      String school
+                      (global area)
+                      String stud::school = “GSEB”;
 
 - Static member function :-
 
