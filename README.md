@@ -243,10 +243,10 @@ OOP 		=>		Object Oriented Programming 		=>	CPP, Dart, Java, Python, etc...
                               - Public
                               - Protected
   
-## Chapter :- 05 Data Encapsulation
+## Chapter :- 04 Data Encapsulation
   
-## Chapter :- 06 Inheritance
+## Chapter :- 05 Inheritance
   
-## Chapter :- 07 Polymorphism
+## Chapter :- 06 Polymorphism
   
 </b>
