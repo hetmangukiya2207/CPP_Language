@@ -666,4 +666,106 @@ OOP 		=>		Object Oriented Programming 		=>	CPP, Dart, Java, Python, etc...
   
 ## Chapter :- 06 Polymorphism
   
+- What is polymorphism ?
+
+                  - polymorphism is a method where we can create multiple formation or structure of single method.
+                  - Polymorphism is a combination of two Greek words.
+                  - Poly      =>    Multiple
+                  - morphs    =>    behaviour / structure / forms
+
+- Types of polymorphism :-
+
+                  - Run time
+                  - Compile time
+
+- Run time :-
+
+                  - Method overriding
+                  - Virtual function
+
+- Compile time :-
+
+                  - Method overloading
+                  - Operator overloading
+
+- Method overloading :-
+
+                  - When we create Sem method with multiple parameters in same class it’s called method overloading.
+
+- Rules :-
+  
+                  - Class must be same.
+                  - Name must be same of all methods.
+                  - Parameteres must different of all method.
+
+                  - When float value pass  	=>		(3.14f)
+
+- Example :- 
+
+                  class math{
+                  public :
+                  void sum(int a,int b)
+                  {
+                  cout << "Sum : " << a+b << endl;
+                  }
+                  void sum(int a,int b,int c)
+                  {
+                  cout << "Sum : " << a+b+c << endl;
+                  }
+                  };
+                  int main()
+                  {
+                  math m;
+                  m.sum(10,5)
+                  }
+
+- Method overloading :-
+
+                  - When we recreate the same method in derived class with same parameters it’s called method overloading.
+
+- Rules :-
+
+                  - Class must be derived(child)
+                  - Name must be same of all method.
+                  - Parameters must be same of all method
+
+- Example :-
+
+                  class math{
+                  public :
+                  void sum(int a,int b)
+                  {
+                  cout << "Sum : " << a+b << endl;
+                  }
+                  };
+                  class math2{
+                  public :
+                  void sum(int m,int n)
+                  {
+                  cout << "Sum of " << m << " & " << n << " = " << m+n << endl;
+                  }
+                  };
+                  int main()
+                  {
+                  math m;
+                  m.sum(10,5)
+                  }
+
+- Different between method overloading & method overriding
+
+                  - Using scope resolution operator  => calling parent class
+  
+- Overloading :-
+    
+                  Class       :- Sem
+                  Name        :- Sem
+                  Parameters  :- Different
+
+  
+- Overriding :-
+    
+                  Class       :- Derived
+                  Name        :- Sem
+                  Parameters  :- Sem
+  
 </b>
