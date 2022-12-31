@@ -9,14 +9,14 @@ OOP 		=>		Object Oriented Programming 		=>	CPP, Dart, Java, Python, etc...
   
  * History Of CPP
   
- Danish Richi 		=>	C Language (1978)
+        Danish Richi 		=>	C Language (1978)
 
-Bjarne Stroustrup	=>	PH.D in OOP
-                  =>	Join in ATNT Company
-                  =>	Bell Laboratry
-                  =>	1984
+        Bjarne Stroustrup	=>	PH.D in OOP
+                          =>	Join in ATNT Company
+                          =>	Bell Laboratry
+                          =>	1984
 
-1980				=>	C With Object
+        1980				=>	C With Object
 
   
  * Different between C & CPP
@@ -31,31 +31,31 @@ Bjarne Stroustrup	=>	PH.D in OOP
   
  - Syntax of cout :-
   
-  cout << “hello World”;
-  
-  (<< :- insertion operation)
+        cout << “hello World”;
+
+        (<< :- insertion operation)
   
   - Syntax of cin :-
   
-cin >> variableName;
+        cin >> variableName;
   
 (>> :- extraction operator)
   
-  - Cin, cout, object header file name type :-
+        - Cin, cout, object header file name type :-
   
-using namespace std;
+        using namespace std;
 
 - ::	=>	membership label operator
   
-=>	std :: cout << “Hello”;
+      =>	std :: cout << “Hello”;
 
 - Manipulator :-
   
-New line 		=>	<< endl;
+      New line 		=>	<< endl;
 
 - User manipulater make :-
 
-  Syntax :-
+    Syntax :-
 
         ostream & h (ostream&output)
         {
