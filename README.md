@@ -156,4 +156,90 @@ OOP 		=>		Object Oriented Programming 		=>	CPP, Dart, Java, Python, etc...
             sum(45,5);
             }
   
+  ## Chapter :- 03 OOP Concept
+  
+ - OOP		=>		Object Oriented Programming
+- POP		  =>		Project Oriented Programming
+  
+- What is object oriented programming ?
+          - it is a concept in which case becomes well structured, well organized and increased it’s reusability.
+          - every process will be done using object.
+          - the complete code will be depended on object.
+  
+- 4 Principal of OOP :-
+ 
+            - Encapsulation 		=> To combine
+            - Inheritance 
+            - Polymorphism
+            - Data abstraction
+  
+            Variable		=>		data members			    =>	attributer
+            UDF			    =>		data member function	=>	methods
+  
+- Encapsulation :-
+  
+            - Setter 
+            - Getter 
+            - Constructor, destructor
+            - Static attributes & method
+  
+- Inheritance :-
+  
+            - Simple
+            - Multilevel
+            - Multiple
+            - Hierarchical
+            - Hybrid
+            - Ambiguity
+  
+- Polymorphic :-
+  
+            - to use in multiple way.
+  
+- Comple time :-
+  
+            - Method overloading
+            - Operator overloading
+  
+- Run time :-
+
+            - Method overriding
+            - Virtual function	
+  
+- Data abstraction :-	to restict
+  
+            - Access modifier :-
+                            Public
+                            Private
+                            Protected
+  
+            - Abstract class :-
+                            Pure virtual function
+
+- Class & object :-
+  
+            - Class :-
+                    Combination of data members and data member functions.
+                    Blueprint of any process.
+  
+            - Syntax :-
+                     Class	className{
+                     Access_modifier :
+                     data members 
+                     data member function
+                     constructor
+                     deconstructor
+  
+            - Object :-
+                      (variable)
+  
+                    - Instance of class 
+                    - Reference of class
+  
+            - Access modifier :-
+
+                    - Private (Default)
+                    - Public
+                    - Protected
+  
 </b>
