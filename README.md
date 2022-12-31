@@ -162,9 +162,9 @@ OOP 		=>		Object Oriented Programming 		=>	CPP, Dart, Java, Python, etc...
 - POP		  =>		Project Oriented Programming
   
 - What is object oriented programming ?
-          - it is a concept in which case becomes well structured, well organized and increased it’s reusability.
-          - every process will be done using object.
-          - the complete code will be depended on object.
+            - it is a concept in which case becomes well structured, well organized and increased it’s reusability.
+            - every process will be done using object.
+            - the complete code will be depended on object.
   
 - 4 Principal of OOP :-
  
@@ -173,9 +173,9 @@ OOP 		=>		Object Oriented Programming 		=>	CPP, Dart, Java, Python, etc...
             - Polymorphism
             - Data abstraction
   
-            Variable		=>		data members			    =>	attributer
+            Variable  =>  data members          =>  attributer
   
-            UDF			    =>		data member function	=>	methods
+            UDF       =>  data member function  =>  methods
   
 - Encapsulation :-
   
@@ -232,15 +232,15 @@ OOP 		=>		Object Oriented Programming 		=>	CPP, Dart, Java, Python, etc...
                      deconstructor
   
             - Object :-
-                      (variable)
-  
-                    - Instance of class 
-                    - Reference of class
-  
-            - Access modifier :-
+                        (variable)
 
-                    - Private (Default)
-                    - Public
-                    - Protected
+                      - Instance of class 
+                      - Reference of class
+
+                      - Access modifier :-
+
+                              - Private (Default)
+                              - Public
+                              - Protected
   
 </b>
