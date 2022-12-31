@@ -39,9 +39,9 @@ OOP 		=>		Object Oriented Programming 		=>	CPP, Dart, Java, Python, etc...
   
         cin >> variableName;
   
-(>> :- extraction operator)
+        (>> :- extraction operator)
   
-        - Cin, cout, object header file name type :-
+ - Cin, cout, object header file name type :-
   
         using namespace std;
 
