@@ -767,5 +767,102 @@ OOP 		=>		Object Oriented Programming 		=>	CPP, Dart, Java, Python, etc...
                   Class       :- Derived
                   Name        :- Sem
                   Parameters  :- Sem
+                  
+- Signature :- 
+
+                  Name (Never Change)
+                  Parameters
+                  Return datatype
+
+- Operator Overloading :-
+
+                  - It is a concept in which we can perform mathematical or logical operations between objects of same class.
+
+- Types of operator overloading :-
+
+                  Unary operator overloading
+                  Binary operator overloading
+
+- Example :- (Unary Operator Overloading)
+
+                  #include<iostream>
+                  using namespace std;
+                  class N{
+                    private:
+                      int a;
+                    public :
+                      void setData()
+                      {
+                        cout << "Enter A : ";
+                        cin >> a;
+                      }
+                      N operator< (N n2)
+                      {
+                        N tmp;
+                        if(a<n2.a)
+                        {
+                          tmp.a = n2.a;
+                          cout << "The Highest Number : " << tmp.a << endl;
+                          return tmp;
+                        }
+                        else if(a>n2.a)
+                        {
+                          tmp.a = a;
+                          cout << "The Highest Number : " << tmp.a << endl;
+                          return tmp;
+                        }
+                        else if(a==n2.a)
+                        {
+                          tmp.a = a = n2.a;
+                          cout << "Bothe Are Same : " << tmp.a << endl;
+                        }
+                        else
+                        {
+                          cout << "Invalid Choice..." << endl;
+                        }
+                      }
+                  };
+                  int main()
+                  {
+                    N n1,n2,n3;
+                    n1.setData();
+                    n2.setData();
+                    n3 = n1<n2;
+                  }
+
+                  Post		=>		++a
+                  Pre		=>		a++
+
+- Example :- (Unary Operator Overloading)
+
+                  #include<iostream>
+                  using namespace std;
+
+                  class incre{
+                    private :
+                      int a;
+                    public :
+                      void setData()
+                      {
+                        cout << "Enter A : ";
+                        cin >> a;
+                      }
+                      incre operator++(int){
+                         incre j;
+                         j.a = ++a;
+                         cout << "A : " << j.a << endl;
+                         j.a = --a;
+                         j.a = --a;
+                         cout << "A : " << j.a << endl;
+                      }
+                  };
+
+                  int main()
+                  {
+                    incre i,i1,i2;
+                    i.setData();
+                    i1 = i++;
+                  }
+
   
 </b>
