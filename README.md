@@ -955,6 +955,153 @@ Draw away 	=>	To restrict
                   Emp e1;
                   e1.myAccess();
                 }
+ 
+- Pointer of object :-
 
-  
+              - An object which stores an address of another object.
+              - Pointer object can be create of same class’s object only.
+              - It can also created for derived class when derived class and base class both have the overridden virtual function.
+
+- Example :-
+
+              Demo d1;
+              Demo *d2;	// pointer object
+              D2 = &d1;
+
+              - All the methods or attributes of pointer object can be accessed by (->) arrow instead of (.) dots.
+
+              D2->setData();
+              D2->getData();
+
+- Call By Value :-
+
+              Limited to the specific scope.
+
+ - Call By Reference :-
+
+              Accrued direct changes using address.
+
+- Example :-
+
+              class A{
+                int a;
+                public:
+                  setData()
+                  {
+                    cout << "Enter A : ";
+                    cin >> a;
+                  }
+                  getData()
+                  {
+                    cout << "A : " << a << endl;
+                  }
+              };
+              int UDF(A *a){
+                a->setData();
+              }
+              int main()
+              {
+                A a1;
+                A *ptr;
+                ptr = &a1;
+                UDF(&a1);
+                a1.getData();
+              }
+
+              Virtual Function :-
+
+              It indicates the single existence of any method to the whole program.
+              It can be used to remove ambiguity per mentally.
+
+              Example :-
+
+              class A{
+                int a;
+                public:
+                  virtual void setA()
+                  {
+                    cout << "Enter A : ";
+                    cin >> a;
+                  }
+                  virtual void getA()
+                  {
+                    cout << "A : " << a << endl;
+                  }
+              };
+              class B : virtual public A{
+              };
+              class C : virtual public A{
+              };
+              class D : public A, public B{
+              };
+              int main()
+              {
+                D d1;
+                d1.setA();
+                d1.setB();
+                d1.setC();
+                d1.setD();
+
+                d1.getA();
+                d1.getB();
+                d1.getC();
+                d1.getD();
+              }
+
+- Abstract Class :- (Using pure virtual function)
+
+              - A class which can not be instantiated.
+              - Can not create object of that class.
+              - All the method or functionalities of abstract class can not be used directly.
+              - In C++, abstract class can be created using pure virtual function.
+
+- Pure virtual function :-
+
+              Virtual function wit initial value ZERO. 
+              
+- Example :-
+
+              Virtual functName(<params>) = 0;
+
+              - It does not have body.
+              - Pure virtual function is only declaration.
+
+              - If we wants to use methods or attributes of abstract class , the pure virtual method of class must be re-incarnated in child class with same signature of method. 
+              - It must have same name, same parameters and same return datatype some as parent’s class pure virtual function.
+
+- Syntax :-
+
+              // abstract class 
+              Class Demo{
+                Public:
+                  Virtual void key(int n, char k) = 0;
+              };
+ 
+- Example :- 
+
+              class safe{
+                int id = 101;
+                string psw = "#Het007";
+                public:
+                  virtual void key(int n, char k)
+                  void getData()
+                  {
+                    cout << "Id\t: " << id << endl
+                       << "Psw\t: " << psw << endl; 
+                  }
+              };
+              class login : public safe{
+                public:
+                  void key(int n, char k)
+                  {
+                    cout << "I got credintioals..." << endl;
+                  }
+              };
+              int main()
+              {
+                Login s;
+                s.key(1, 'A');
+                s.getData();
+              }
+ 
 </b>
