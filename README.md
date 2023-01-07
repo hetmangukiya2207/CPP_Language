@@ -1104,4 +1104,75 @@ Draw away 	=>	To restrict
                 s.getData();
               }
  
+ 
+## Chapter :- 08 Exception handling
+
+- Exception :-
+
+            - It’s also kind of error what accrues by logical mistake.
+            - Exception can be called one type of system time out or restriction to use some methods.
+            - It accrues on compiling time and brake the executing flow of compiler.
+
+- Different between exception & error :-
+
+                Error							            Exception
+            Compile time					        run time
+            Syntax mistake					      logical mistake
+            Accrues by developer 			    Accrues by developer &user
+
+- Types of block
+
+            - Try block
+            - Catch block
+
+- Syntax :-
+
+            Try {
+              // expression which may accrues exception 
+              // throw value;
+            }
+            Catch ( arguments ) {
+              // solution of that exception 
+            } 
+
+- Example :-
+
+            #include<iostream>
+            using namespace std;
+            class Logic {
+              public :
+                void div(double a, double b){
+
+                  if(b==0){
+
+                    throw b;	
+                  }else{
+                    cout <<" Answer : " << a/b << endl;
+                  }
+                }
+            };
+            class Division : public Logic {
+              double a,b;
+              public :
+                void setdata(){
+                  cout <<" Enter A : ";
+                  cin  >> a; 
+                  cout <<" Enter B : ";
+                  cin  >> b;
+                }
+                void getdivision(){
+                  try {
+                    div(a,b);
+                  }
+                catch(double b){
+                    cout << " " << b <<" Can not divided by Zero" << endl;
+                  }	
+                }		
+            };
+            int main(){
+              Division d;
+              d.setdata();
+              d.getdivision();
+            }
+
 </b>
