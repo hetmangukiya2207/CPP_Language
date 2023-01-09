@@ -6,7 +6,7 @@
 
 <u>**Output**</u> :
 
-<img src="" height = "200px" alt = "unable to load image.">
+<img src="https://user-images.githubusercontent.com/114165239/211328495-f0de66ee-c087-45d3-a22a-7b30220451e9.PNG" height = "200px" alt = "unable to load image.">
 
 <u>**Aim 2**</u> : WAP to create a class which illustrate the concept of handling all types of exceptions using general exception.
 
